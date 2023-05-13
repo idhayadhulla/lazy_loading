@@ -1,0 +1,28 @@
+body {
+  margin: 20px;
+  font-family: 'Lato';
+  font-weight: 300;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1{
+  font-size: 30px;
+  font-family: monsterrat, 'bold';
+}
+
+img {
+  width: 600px;
+  height: 600px;
+  display: block;
+}
+
+img.lazy-load {
+  background: #ececec;
+}
+
+.lazy-load{
+  filter: blur(10px);
+}
